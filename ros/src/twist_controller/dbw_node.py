@@ -115,6 +115,9 @@ class DBWNode(object):
                 control_parameter_dict['wheel_radius'] =  self.wheel_radius
 
                 throttle, brake, steering = self.controller.control(**control_parameter_dict)
+                if self.target_linear_velocity < 0.01:
+                    throttle = 0.0;
+                    brake = 5.0;
 
                 #Need to adjust brake as torque, the controller is returning [0, -1] for brake
                 self.publish(throttle, brake, steering)
