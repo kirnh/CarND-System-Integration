@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kh/CarND/Term3/P3/submission-sys-int/ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

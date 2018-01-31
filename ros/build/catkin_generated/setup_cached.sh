@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/build"
+export PWD="/home/kh/CarND/Term3/P3/submission-sys-int/ros/build"

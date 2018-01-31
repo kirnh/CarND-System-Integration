@@ -1,8 +1,8 @@
-# Install script for directory: /home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/src/camera_info_publisher
+# Install script for directory: /home/kh/CarND/Term3/P3/submission-sys-int/ros/src/camera_info_publisher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kh/CarND/Term3/P3/submission-sys-int/ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/build/camera_info_publisher/catkin_generated/installspace/camera_info_publisher.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kh/CarND/Term3/P3/submission-sys-int/ros/build/camera_info_publisher/catkin_generated/installspace/camera_info_publisher.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_info_publisher/cmake" TYPE FILE FILES
-    "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/build/camera_info_publisher/catkin_generated/installspace/camera_info_publisherConfig.cmake"
-    "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/build/camera_info_publisher/catkin_generated/installspace/camera_info_publisherConfig-version.cmake"
+    "/home/kh/CarND/Term3/P3/submission-sys-int/ros/build/camera_info_publisher/catkin_generated/installspace/camera_info_publisherConfig.cmake"
+    "/home/kh/CarND/Term3/P3/submission-sys-int/ros/build/camera_info_publisher/catkin_generated/installspace/camera_info_publisherConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_info_publisher" TYPE FILE FILES "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/src/camera_info_publisher/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_info_publisher" TYPE FILE FILES "/home/kh/CarND/Term3/P3/submission-sys-int/ros/src/camera_info_publisher/package.xml")
 endif()
 

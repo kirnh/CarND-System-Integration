@@ -258,7 +258,7 @@ class TLDetector(object):
 
                 #rospy.loginfo("Light state: (%d  ->%d) %d", ground_state, self.lights[0].state, state)
 
-                return light_wp, state
+                return light_wp-3, state
             else:
                 return -1, TrafficLight.UNKNOWN
 

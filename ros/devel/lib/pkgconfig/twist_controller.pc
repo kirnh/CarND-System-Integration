@@ -1,8 +1,8 @@
-prefix=/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/devel
+prefix=/home/kh/CarND/Term3/P3/submission-sys-int/ros/devel
 
 Name: twist_controller
 Description: Description of twist_controller
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/devel/lib 
+Libs: -L/home/kh/CarND/Term3/P3/submission-sys-int/ros/devel/lib 
 Requires: 

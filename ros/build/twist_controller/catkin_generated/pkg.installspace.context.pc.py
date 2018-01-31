@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "twist_controller"
-PROJECT_SPACE_DIR = "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/install"
+PROJECT_SPACE_DIR = "/home/kh/CarND/Term3/P3/submission-sys-int/ros/install"
 PROJECT_VERSION = "0.0.0"

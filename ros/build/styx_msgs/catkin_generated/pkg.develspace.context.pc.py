@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/devel/include".split(';') if "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/devel/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/kh/CarND/Term3/P3/submission-sys-int/ros/devel/include".split(';') if "/home/kh/CarND/Term3/P3/submission-sys-int/ros/devel/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "styx_msgs"
-PROJECT_SPACE_DIR = "/home/rajivb/Desktop/Acar/Term3/ROS/submission/CarND-Capstone/ros/devel"
+PROJECT_SPACE_DIR = "/home/kh/CarND/Term3/P3/submission-sys-int/ros/devel"
 PROJECT_VERSION = "0.0.0"
